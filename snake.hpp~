@@ -1,0 +1,15 @@
+#pragma once
+
+#include"raylib.h"
+
+class Snake{
+public:
+  Snake();
+  ~Snake();
+private:
+  int posx;
+  int posy;
+  int size;
+  int direction;
+  bool dir_switch;
+};

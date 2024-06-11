@@ -1,0 +1,13 @@
+#include"raylib.h"
+
+class Snake{
+public:
+  Snake(){
+    posx = 4;
+    posy = 4;
+  };
+  ~Snake();
+private:
+  int posx;
+  int posy;
+};

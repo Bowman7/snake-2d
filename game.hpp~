@@ -1,0 +1,14 @@
+#pragma once
+
+#include"raylib.h"
+#include"snake.hpp"
+
+class Game{
+public:
+  Game();
+  ~Game();
+  void HandleInput();
+  void Update();
+private:
+  
+};

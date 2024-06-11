@@ -1,0 +1,15 @@
+#pragma once
+
+#include"raylib.h"
+
+class Fruit{
+public:
+  Fruit();
+  ~Fruit();
+  void Draw();
+  void Update();
+private:
+  int posx;
+  int posy;
+  int size;
+};
